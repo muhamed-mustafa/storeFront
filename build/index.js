@@ -10,6 +10,6 @@ const order_route_1 = require("./routers/order.route");
 const app = (0, express_1.default)();
 app.use(express_1.default.json());
 app.use([user_route_1.usersRouter, product_route_1.productRouter, order_route_1.orderRouter]);
-const port = 3000 || process.env.PORT;
-app.listen(port, () => console.log(`Listening to port ${port}`));
+const PORT = 3000 || process.env.PORT;
+app.listen(PORT, () => console.log(`Listening to PORT ${PORT}`));
 exports.default = app;
