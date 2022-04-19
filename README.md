@@ -83,6 +83,8 @@
 # Environment Variables
 
 - POSTGRES_HOST=127.0.0.1
+- POSTGRES_PORT=5432
+- PORT=3000
 - POSTGRES_DB=storefront
 - POSTGRES_USER=postgres
 - POSTGRES_PASSWORD=Mohamed14

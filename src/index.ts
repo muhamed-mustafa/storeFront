@@ -8,8 +8,8 @@ const app: Application = express();
 app.use(express.json());
 app.use([usersRouter, productRouter, orderRouter]);
 
-const port: number = 3000 || process.env.PORT;
+const PORT: number = 3000 || process.env.PORT;
 
-app.listen(port, () => console.log(`Listening to port ${port}`));
+app.listen(PORT, () => console.log(`Listening to PORT ${PORT}`));
 
 export default app;
