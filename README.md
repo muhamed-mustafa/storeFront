@@ -17,6 +17,24 @@
 
      npm install
 
+# DATABASE
+
+<h2> Create Storefront database and migration up </h2>
+
+    npm run create:dev:db
+
+<h2> Drop Test Database </h2>
+
+    npm run drop:test:db
+
+<h2> Migrations UP </h2>
+
+    npm run db:up
+
+<h2> Migrations DOWN </h2>
+
+    npm run db:down
+
 <h2> Run development server </h2>
 
      npm run start
